@@ -1,7 +1,7 @@
 {
-  "name": "electron-quick-start",
+  "name": "etodo",
   "version": "1.0.0",
-  "description": "A minimal Electron application",
+  "description": "A minimal Electron todo application",
   "main": "main.js",
   "scripts": {
     "start": "electron ."
@@ -14,9 +14,12 @@
     "tutorial",
     "demo"
   ],
-  "author": "GitHub",
+  "author": "Jaijg",
   "license": "CC0-1.0",
   "devDependencies": {
     "electron": "^8.2.0"
+  },
+  "dependencies": {
+    "electron-store": "^5.1.1"
   }
 }
